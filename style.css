@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+body{
+    font-family: 'Orbitron', sans-serif;
+    background-color:palevioletred;
+    height: 100vh;
+   /** background-image: url('images/panther.jpg');**/
+  
+    
+}
+
+.navbar{
+    background-color:white;
+    height: 15vh;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.navbar .pig{
+    color:palevioletred;
+}
+
+.navbar .image{
+   
+    margin-left: 0;
+    margin-right: 100rem;
+    
+}
+ 
+.latin{
+    height: 18rem;
+    width: 30rem;
+    border-radius: 8px;
+    margin-left: 23rem;
+    margin-top: 0.5rem;
+}
+
+
+
+.area{
+    height: 6rem;
+    width: 37rem;
+    border-color: black;
+    margin-top: 1rem;
+    margin-left: 19rem;
+    background-color:white;
+    
+}
+
+textarea{
+    font-size:1.6rem;
+    color:black;
+}
+
+::placeholder{
+    text-align: center;
+    font-size: 1.5rem;
+    color:purple;
+    font-weight: bold;
+    font-family: ;
+}
+
+.button{
+     margin-top: 1rem;
+    display: inline-block;
+    padding: 15px 32px;
+    border-radius: 8px;
+    margin-left: 33rem;
+    height: 3.5rem;
+    border: 2px solid white;
+    color:black;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: silver;
+    color: black;
+}
+
+.button:active{
+    background-color: black;
+    color:silver;
+}
+
+
+
+
+footer p{
+	font-size: 1.7rem;
+	
+	color:palevioletred;
+    line-height:10px;
+    
+}
+
+.para{
+    font-size: 1.7rem;
+    color: palevioletred;
+}
+
+
+footer{
+	height:150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top:10rem;
+	background-color:white;
+}
+.social-icons a{
+	width:40px;
+	height:40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:palevioletred;
+	margin:20px 10px;
+	border-radius:50%;
+}
+.social-icons{
+	display: flex;
+	
+}
+.social-icons i,.social i{
+	color:black;
+}
+.social-icons a:hover{
+	background-color:palevioletred;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.5s;
+}
+.social-icons a:hover i,
+.social a:hover i{
+	color:#FFFFFF;
+	transition:all ease 0.5s;
+}
+
+
+@media(max-width:858px){
+	
+
+	
+	
+	nav {
+		display: block;
+	}
+		
+	.pig{
+        margin-left: 4rem;
+    }
+
+    
+	.area{
+        height: 8rem;
+        width: 20rem;
+        border-color: black;
+        margin-top: 2.5rem;
+        margin-left: 1rem;  
+        background-color:#1560bd;
+        
+    }
+
+    .button{
+        margin-top: 2.5rem;
+        display: inline-block;
+        padding: 15px 32px;
+        border-radius: 8px;
+        margin-left: 5rem;
+        height: 3.5rem;
+        border: 2px solid #1560bd;
+        color:black;
+        font-size: 1.5rem;
+    }
+
+
+	
+	footer{
+        display: block;
+    }
+	
+    footer p{
+        justify-content: center;
+        align-items: center;
+        margin-left: 5rem;
+    }
+
+    .para{
+        margin-left: 5rem;
+    }
+
+    .social-icons{
+        justify-content: center;
+        align-items: center;
+    }
+	
+	
+}
