@@ -3,51 +3,37 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Orbitron', sans-serif;
 }
 
 
 body{
-   /** font-family: 'Orbitron', sans-serif;**/
-    background-color:palevioletred;
+    background-image: url('images/pig-2.jpg');
+    background-size: cover;
     height: 100vh;
     
 }
 
-.navbar{
-    background-color:white;
-    height: 15vh;
+
+h1{
     text-align: center;
-    font-size: 2rem;
 }
 
-.navbar .pig{
-    color:palevioletred;
-}
-
-.navbar .image{
-    margin-left: 0;
-    margin-right: 100rem;
-    
-}
- 
-.latin{
-    height: 14rem;
-    width: 25rem;
-    border-radius: 8px;
-    margin-left: 27rem;
-    margin-top: 1rem;
-}
 
 .area{
-    height: 6rem;
-    width: 42rem;
-    border-color: black;
-    margin-top: 1rem;
-    margin-left: 19rem;
-    background-color:white;
+    width: 50%;
+    height: 11vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
     
+}
+
+.area-2{
+           height: 5vh;
+            width: 50%;
+            margin: 1rem;
+            padding: 1rem;
 }
 
 textarea{
@@ -57,59 +43,41 @@ textarea{
 
 ::placeholder{
     text-align: center;
-    font-size: 1.5rem;
-    color:purple;
+    font-size: 1rem;
+    color:black;
     font-weight: bold;
     font-family: ;
 }
 
-.button{
-    margin-top: 1rem;
+#btn-translate{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    margin-left: 10rem;
     display: inline-block;
     padding: 15px 32px;
-    border-radius: 8px;
-    margin-left: 33rem;
-    height: 3.5rem;
     border: 2px solid white;
+    height: 3rem;
+    width: 15rem;
     color:black;
     font-size: 1.5rem;
     cursor: pointer;
-    font-weight: bold;
-}
+   
+    }
 
-.button:hover{
-    background-color: silver;
+#btn-translate:hover{
+    background-color:white;
     color: black;
 }
 
-.button:active{
+#btn-translate:active{
     background-color: black;
     color:silver;
 }
 
-
-footer p{
-	font-size: 1.7rem;
-	color:palevioletred;
-    line-height:10px;
-    
-}
-
-.para{
-    font-size: 1.7rem;
-    color: palevioletred;
-}
-
-
 footer{
-	height:150px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	position: relative;
-	top:10rem;
-	background-color:white;
+	background-color:palevioletred;
+    height: 10rem;
+    text-align: center;
 }
 .social-icons a{
 	width:40px;
@@ -117,19 +85,22 @@ footer{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color:palevioletred;
+	background-color:yellow;
 	margin:20px 10px;
 	border-radius:50%;
 }
 .social-icons{
-	display: flex;
+    display: flex;
+    margin-left: 30rem;
+   
 	
 }
 .social-icons i,.social i{
-	color:black;
+    color:#1560bd;
+  
 }
 .social-icons a:hover{
-	background-color:palevioletred;
+	background-color:#000000;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 	transition:all ease 0.5s;
 }
@@ -139,62 +110,21 @@ footer{
 	transition:all ease 0.5s;
 }
 
+section{
+    margin-top: 7rem;
+}
 
+.second{
+    margin-left: 23rem;
+}
 
 
 
 @media(max-width:858px){
 	
 
-	.navbar{
-        background-color:white;
-        height: 12vh;
-        text-align: center;
-        font-size: 1.5rem;
-    }
-	
-	nav {
-		display: block;
-	}
-    
- 
-	.pig{
-        margin-left: 4rem;
-    }
-
-    .latin{
-        height: 12rem;
-        width: 20rem;
-        border-radius: 8px;
-        margin-left: 1rem;
-        margin-top: 0.5rem;
-    }
-    
-    
-	.area{
-        height: 8rem;
-        width: 20rem;
-        border-color: black;
-        margin-top: 2.5rem;
-        margin-left: 1rem;  
-        background-color:white;
-        
-    }
-
-    .button{
-        margin-top: 2.5rem;
-        display: inline-block;
-        padding: 15px 32px;
-        border-radius: 8px;
-        margin-left: 5rem;
-        height: 3.5rem;
-        border: 2px solid #1560bd;
-        color:black;
-        font-size: 1.5rem;
-    }
-
-
-	
+  
+		
 	footer{
         display: block;
     }
@@ -205,12 +135,7 @@ footer{
         margin-left: 5rem;
     }
 
-    .para{
-        margin-left: 5rem;
-        font-size: 1rem;
-    }
-
-    .social-icons{
+        .social-icons{
         justify-content: center;
         align-items: center;
     }
