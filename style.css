@@ -40,8 +40,6 @@ body{
     margin-top: 1rem;
 }
 
-
-
 .area{
     height: 6rem;
     width: 42rem;
@@ -88,8 +86,6 @@ textarea{
     background-color: black;
     color:silver;
 }
-
-
 
 
 footer p{
@@ -144,14 +140,17 @@ footer{
 }
 
 
+
+
+
 @media(max-width:858px){
 	
 
 	.navbar{
         background-color:white;
-        height: 15vh;
+        height: 12vh;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 	
 	nav {
