@@ -191,10 +191,12 @@ footer{
         justify-content: center;
         align-items: center;
         margin-left: 5rem;
+        font-size: 1.5rem;
     }
 
     .para{
         margin-left: 5rem;
+        font-size: 1.5rem;
     }
 
     .social-icons{
