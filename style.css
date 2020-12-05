@@ -9,11 +9,9 @@
 
 
 body{
-    font-family: 'Orbitron', sans-serif;
+   /** font-family: 'Orbitron', sans-serif;**/
     background-color:palevioletred;
     height: 100vh;
-   /** background-image: url('images/panther.jpg');**/
-  
     
 }
 
@@ -29,25 +27,24 @@ body{
 }
 
 .navbar .image{
-   
     margin-left: 0;
     margin-right: 100rem;
     
 }
  
 .latin{
-    height: 18rem;
-    width: 30rem;
+    height: 14rem;
+    width: 25rem;
     border-radius: 8px;
-    margin-left: 23rem;
-    margin-top: 0.5rem;
+    margin-left: 27rem;
+    margin-top: 1rem;
 }
 
 
 
 .area{
     height: 6rem;
-    width: 37rem;
+    width: 42rem;
     border-color: black;
     margin-top: 1rem;
     margin-left: 19rem;
@@ -69,7 +66,7 @@ textarea{
 }
 
 .button{
-     margin-top: 1rem;
+    margin-top: 1rem;
     display: inline-block;
     padding: 15px 32px;
     border-radius: 8px;
@@ -97,7 +94,6 @@ textarea{
 
 footer p{
 	font-size: 1.7rem;
-	
 	color:palevioletred;
     line-height:10px;
     
@@ -151,16 +147,30 @@ footer{
 @media(max-width:858px){
 	
 
-	
+	.navbar{
+        background-color:white;
+        height: 15vh;
+        text-align: center;
+        font-size: 1rem;
+    }
 	
 	nav {
 		display: block;
 	}
-		
+    
+ 
 	.pig{
         margin-left: 4rem;
     }
 
+    .latin{
+        height: 18rem;
+        width: 30rem;
+        border-radius: 8px;
+        margin-left: 4rem;
+        margin-top: 0.5rem;
+    }
+    
     
 	.area{
         height: 8rem;
@@ -168,7 +178,7 @@ footer{
         border-color: black;
         margin-top: 2.5rem;
         margin-left: 1rem;  
-        background-color:#1560bd;
+        background-color:white;
         
     }
 
@@ -198,6 +208,7 @@ footer{
 
     .para{
         margin-left: 5rem;
+        font-size: 1rem;
     }
 
     .social-icons{
