@@ -20,24 +20,9 @@ h1{
 }
 
 
-.area{
-    width: 50%;
-    height: 11vh;
-    display: block;
-    margin: 1rem;
-    padding: 1rem;
-    
-}
-
-.area-2{
-           height: 5vh;
-            width: 50%;
-            margin: 1rem;
-            padding: 1rem;
-}
 
 textarea{
-    font-size:1.6rem;
+    font-size:1.2rem;
     color:black;
 }
 
@@ -125,9 +110,11 @@ section{
 
     body{
         background-image: url('images/pig-3.jpg');
-        background-size: cover;
+        background-size: 2rem;
         height: 100vh;
-        width: 30vh;
+        width: 100vh;
+        margin-left: 1rem;
+
         
     }
 		
