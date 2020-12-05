@@ -1,68 +1,120 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
-
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box;
+    font-family:'Orbitron', sans-serif;
 }
+
 
 
 body{
-    background-image: url('images/pig-2.jpg');
-    background-size: cover;
+    
+    background-color:palevioletred;
     height: 100vh;
+    background-image: url('images/pig-4.jpg');
+  
     
 }
 
-
-h1{
+.navbar{
+    background-color:palevioletred;
+    height: 15vh;
     text-align: center;
+    font-size: 2rem;
+}
+
+.navbar .banana{
+    color: white;
+}
+
+.navbar .image{
+   
+    margin-left: 0;
+    margin-right: 100rem;
+    
+}
+ 
+.minion{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 8px;
+    margin-left: 33rem;
+    margin-top: 2rem;
 }
 
 
 
+.area{
+    height: 8rem;
+    width: 40rem;
+    border-color: black;
+    margin-top: 2.5rem;
+    margin-left: 19rem;
+    
+    background-color:white;
+
+    
+    
+}
+
 textarea{
-    font-size:1.2rem;
+    font-size:1.5rem;
     color:black;
 }
 
 ::placeholder{
     text-align: center;
-    font-size: 1rem;
-    color:black;
+    font-size: 1.5rem;
+    color: black;
     font-weight: bold;
-    font-family: ;
 }
 
-#btn-translate{
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
-    margin-left: 10rem;
+.button{
+     margin-top: 2.5rem;
     display: inline-block;
     padding: 15px 32px;
-    border: 2px solid white;
-    height: 3rem;
-    width: 15rem;
+    border-radius: 8px;
+    margin-left: 33rem;
+    height: 3.5rem;
+    border: 2px solid #1560bd;
     color:black;
     font-size: 1.5rem;
-    cursor: pointer;
-   
-    }
+}
 
-#btn-translate:hover{
+.button:hover{
+    background-color:palevioletred;
+    color:white;
+}
+
+.button:active{
     background-color:white;
-    color: black;
+    color:palevioletred;
 }
 
-#btn-translate:active{
-    background-color: black;
-    color:silver;
+footer p{
+	font-size: 1.7rem;
+	
+	color:white;
+    line-height:10px;
+    
 }
+
+.para{
+    font-size: 1.7rem;
+    color: white;
+}
+
 
 footer{
+	height:150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top:10rem;
 	background-color:palevioletred;
-    height: 10rem;
-    text-align: center;
 }
 .social-icons a{
 	width:40px;
@@ -70,19 +122,16 @@ footer{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color:yellow;
+	background-color:palevioletred;
 	margin:20px 10px;
 	border-radius:50%;
 }
 .social-icons{
-    display: flex;
-    margin-left: 30rem;
-   
+	display: flex;
 	
 }
 .social-icons i,.social i{
-    color:#1560bd;
-  
+	color:black;
 }
 .social-icons a:hover{
 	background-color:#000000;
@@ -95,28 +144,45 @@ footer{
 	transition:all ease 0.5s;
 }
 
-section{
-    margin-top: 7rem;
-}
-
-.second{
-    margin-left: 23rem;
-}
-
-
 
 @media(max-width:858px){
 	
 
-    body{
-        background-image: url('images/pig-3.jpg');
-        background-size:cover;
-        margin-left: 1rem;
-        margin-right: 20rem;
+	
+	
+	nav {
+		display: block;
+	}
+		
+	.minion{
+        margin-left: 4rem;
+    }
 
+    
+	.area{
+        height: 8rem;
+        width: 20rem;
+        border-color: black;
+        margin-top: 2.5rem;
+        margin-left: 1rem;  
+        background-color:white;
         
     }
-		
+
+    .button{
+        margin-top: 2.5rem;
+        display: inline-block;
+        padding: 15px 32px;
+        border-radius: 8px;
+        margin-left: 5rem;
+        height: 3.5rem;
+        border: 2px solid #1560bd;
+        color:black;
+        font-size: 1.5rem;
+    }
+
+
+	
 	footer{
         display: block;
     }
@@ -127,7 +193,11 @@ section{
         margin-left: 5rem;
     }
 
-        .social-icons{
+    .para{
+        margin-left: 5rem;
+    }
+
+    .social-icons{
         justify-content: center;
         align-items: center;
     }
