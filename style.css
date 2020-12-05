@@ -110,7 +110,7 @@ section{
 
     body{
         background-image: url('images/pig-3.jpg');
-        background-size: 2rem;
+        background-size:contain;
         margin-left: 1rem;
 
         
